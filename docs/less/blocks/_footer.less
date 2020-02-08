@@ -1,0 +1,213 @@
+.footer {
+	max-width: 1920px;
+	height: 510px;
+	background: #191919; 
+}
+.footer__container{
+	max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 78px;
+    flex-wrap: wrap;
+}
+	.footer__waxom {
+		width: 270px;
+
+	}
+		.footer__wax {
+			display: flex;
+		    justify-content: space-between;
+		    width: 141px;
+		}
+			.footer__waxom__text {
+				margin-top: 12px;
+			    font-size: 34px;
+			    color:#ffffff;
+			    letter-spacing: -0.5px;
+			    font-weight: 500;
+			    font-family: 'Raleway', sans-serif;
+			    margin-left: 2px;
+			}
+				.waxom__content {
+					color: #555555;
+				    font-size: 14px;
+				    line-height: 24px;
+				    margin-top: 22px;
+				    letter-spacing: -0.1px;
+				}
+				.footer__waxom:hover .waxom__content {
+				color:#c7b199;
+				}
+					.footer__linc {
+						color:#555555;
+						margin-top: 24px;
+					    font-weight: 500;
+					    font-size: 14px;
+					}
+					.footer__linc a:hover {
+						color: #03b7ec;
+					}
+						.footer__linc a {
+							text-decoration: none;
+							color: #ffffff;
+						}
+	
+	.footer__recent-post {
+		width: 270px;
+    	margin-left: 8px;
+	}
+		.recent__footer {
+			font-size: 24px;
+		    font-family: 'Raleway', sans-serif;
+		    color: #ffffff;
+		    font-weight: 700;
+		    margin-top: 27px;
+		}
+			.recent__post {
+				margin-top: 23px;
+				border-bottom: 1px solid #252525;
+				padding-bottom: 20px;
+			}
+			.recent__post:last-child {
+				border-bottom: 0;
+			}
+			.recent__post:hover .recent__data{
+				color:#ffffff;
+			}
+			.recent__post:hover .data__content{
+				color:#c7b199;
+			}
+				.recent__data {
+					color: #363636;
+			    	font-size: 12px;
+			    	margin-top: 23px;
+				}
+					.data__content {
+						color: #555555;
+					    font-size: 14px;
+					    margin-top: 7px;
+					    
+					}
+					
+					
+	.footer__our__twitter {
+		width: 275px;
+    	margin-left: 10px;
+	}
+	.twitter__post:hover .twitter__content {
+		color:#c7b199;
+	}
+	.twitter__post:hover .twitter__content span{
+		color:#c7b199;
+	}
+		.twitter {
+			font-size: 24px;
+			font-family: 'Raleway', sans-serif;
+			color: #ffffff;
+			font-weight: 700;
+			margin-top: 27px;	
+		}
+			.twitter__post {
+				margin-top: 21px;
+				border-bottom: 1px solid #252525;
+				padding-bottom: 20px;
+			}
+			.twitter__post:last-child {
+				border-bottom: 0;
+			}
+				.twitter__content {
+					color: #555555;
+			    	font-size: 14px;
+			    	margin-top: 7px;
+				}
+					.text__twitter {
+						color:#03b7ec;
+					}
+						.twitter__data {
+							color: #2e2e2e;
+					    	font-size: 12px;
+					   		margin-top: 10px;
+					   		
+						}
+							.text__twitter__curs {
+								color:#959595;
+							}
+								.twitter__post hr {
+								display: block;
+							    margin-bottom: 0.5em;
+							    margin-left: auto;
+							    margin-right: auto;
+							    border-style: inset;
+							    border-width: 0.1px;
+							    margin-top: 20px;
+							    border: 0.5px solid #252525;
+					}
+	.footer__dribbble {
+		width: 270px;
+	}
+		.dribbble__widget {
+			font-size: 24px;
+			font-family: 'Raleway', sans-serif;
+			color: #ffffff;
+			font-weight: 700;
+			margin-top: 27px;
+		}
+			.widget__container {
+				display: flex;
+			    justify-content: space-between;
+			    width: 270px;
+			    height: 215px;
+			    margin-top: 23px;
+			    flex-wrap: wrap;
+			}
+				.widget__foto {
+				width: 130px;
+				height: 100px;
+				}
+				.widget__foto:hover {
+			    transform: scale(1.1); 
+			    transition:  0.2s ease-in;
+   				}
+
+@media (min-width: 320px) and (max-width: 540px) {
+.footer {
+	  height: auto;
+}
+.footer__container{
+	padding: 10px;	
+}
+.footer__recent-post {
+    margin-left: 0px;
+}
+.recent__footer {
+    margin-top: 16px;
+}
+.footer__our__twitter {
+    margin-left: 0px;
+	}
+}
+
+@media (min-width: 540px) and (max-width: 992px) {
+	.footer {
+      height: auto;
+}
+.footer__container{
+	padding: 10px;	
+}
+.footer__our__twitter {
+    margin-left: 0px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+.footer {
+    height: auto;
+}
+.footer__container{
+	padding: 10px;	
+}
+
+.footer__our__twitter {
+    margin-left: 0px;
+	}
+}

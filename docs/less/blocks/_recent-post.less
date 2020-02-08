@@ -1,0 +1,238 @@
+.recent_post{
+	max-width: 100%;
+    height: 758px;
+}
+	.recent {
+		max-width: 1920px;
+		height: 212px;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.posts {
+		color: #555555;
+	    font-family: 'Raleway', sans-serif;
+	    font-size: 30px;
+	    font-weight: 600;
+	    padding-top: 76px;
+	    letter-spacing: 0.2px;
+	}
+		.posts__text {
+			color: #8c8c8c;
+		    font-size: 16px;
+		    font-weight: 300;
+		    line-height: 25px;
+		    margin-top: 18px;
+		    letter-spacing: -0.2px;
+		}
+			.recent__container {
+				max-width: 1920px;
+				
+			}
+.pos {
+	height: 395px;
+	width:370px;
+	border :1px solid  #f8f8f8;
+	position: relative;
+	}
+.post_container {
+	width:370px;
+	height:220px;
+	position: relative;
+
+}
+	
+	.post_container:before {
+		content:"";
+		position:absolute;
+		left:0;
+		top:0;
+		width:100%;
+		height:100%;
+		background-color: rgba(0, 0, 0, 0.35);
+		opacity: 0;
+		-webkit-transition:all .3s;
+		-moz-transition:all .3s;
+		-o-transition:all .3s;
+		transition:all .3s;
+	}
+	
+	.pos:hover .post_container:before {
+			opacity: .75;
+		}
+		
+	.pos:hover .recent__title{
+		color: #c9b09a;
+	}
+	.pos:hover .maintenance{
+		color: #fefefc;
+	}
+	.pos:hover .data{
+		background: #c6b099;
+		opacity: 1;
+	}
+	.pos:hover .month {
+		background: #a58d73;
+	}
+	.pos:hover .recent__text {
+		background-color: #372f2d;
+	}
+			.number_data {
+			border-radius: 5px;
+			background: #363636;
+			position: relative;
+			text-align: center;
+			color: white;
+			z-index: 3;
+			}
+			.data {
+			background: #363636;
+			width: 50px;
+			height: 35px;
+			position: absolute;
+			font-size: 24px;
+			margin-left: 20px;
+			margin-top: 20px;
+			padding-top: 4px;
+			border-radius: 5px 5px 0px 0px;
+			}
+			.month {
+			width: 50px;
+			height: 25px;
+			background: #252525;
+			position: absolute;
+			font-size: 12px;
+			margin-left: 20px;
+			margin-top: 55px;
+			padding-top: 4px;
+			border-radius: 0px 0px 5px 5px;
+			} 
+.post__center{
+	max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;   
+    flex-wrap: wrap;
+}		
+	.recent__text {
+	    padding-left: 30px;
+    	padding-top: 25px;
+    	width: 370px;
+	}
+		.recent__title {
+			font-size: 20px;
+			font-weight:500;
+		}
+			.maintenance {
+			    font-size: 14px;
+			    margin-top: 15px;
+			    color:#8c8c8c;
+			}
+		.recent_link {
+			margin-top: 20px;
+			padding-bottom: 35px;	
+		}
+		.recent_link a {
+			font-family: 'Raleway', sans-serif;
+			text-decoration: none;
+			color:#c7b299;
+		}
+
+		.recent__container .owl-carousel .owl-nav{
+			display: flex;
+		    justify-content: center;
+		 	padding-top: 60px;
+		}
+
+.recent__container .owl-carousel .owl-nav button.owl-prev:hover, 
+.recent__container .owl-carousel .owl-nav button.owl-next:hover{
+	   color: #cab69f;
+	   border-color: #cab69f;
+}
+.recent__container .owl-carousel .owl-nav button.owl-prev, 
+.recent__container .owl-carousel .owl-nav button.owl-next{
+border: solid 1px #d1d1d1;
+    border-radius: 50%;
+    margin: 0 5px;
+    width: 25px;
+    text-align: center;
+    height: 25px;
+    font-size: 12px;
+    color: #d1d1d1;
+    display: block;
+        outline: none;
+        -webkit-transition:all .3s;
+-moz-transition:all .3s;
+-o-transition:all .3s;
+transition:all .3s;
+}
+.recent__container .owl-carousel .owl-nav button:hover{}
+.our-latest__items__foto {
+width: 370px;
+height: 237px;
+position: relative;
+}
+@media (min-width: 320px) and (max-width: 1600px) {
+.recent_post{
+ 	width: 100%;
+	    height: auto;
+}
+.recent {
+   	width: 100%;
+	height: auto;
+}
+.posts {
+    padding-top: 17px;
+    font-size: 23px;
+    }
+.posts__text {
+   	margin-top: 5px;
+    font-size: 12px;
+    line-height: 1.5;
+
+    }
+.recent__container {
+	width: auto;
+	margin: 0 auto;
+
+    }
+.post_container img{
+	width: 100%;
+    height: 100%;
+    }
+.post_container {
+	width: 320px;
+} 
+.post_container img {
+	width: 100%;
+    height: 100%;
+    }
+.pos {
+	width: 320px;
+    height: auto;
+    margin: 0 auto;	
+    margin-top: 20px;
+	}
+.pos:last-child {
+	margin-bottom: 25px;
+}	
+.recent__title {
+	font-size: 16px;
+	}
+.maintenance {
+	font-size: 12px;
+    margin-top: 5px;			
+	}
+	.recent_link {
+	font-size: 14px;
+	padding-bottom: 35px;
+    }
+    .recent__container .owl-carousel .owl-nav{
+	padding-top: 10px;
+}
+.recent__text {
+	    padding-left: 30px;
+    	padding-top: 25px;
+    	width: 320px;
+	}
+}
